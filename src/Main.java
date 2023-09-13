@@ -8,15 +8,14 @@ public class Main {
 
 
         i = b ;
-        f1 = f2 ;
+       // f1 = f2 ;
 
         i = (int)(Math.random() * 10 + 5) ;
 
         b = (byte)i ;
 
+        double y = Math.sin(Math.pow(i,2)) + Math.pow(Math.cos(i),2) / i + Math.sqrt(i);
 
-
-
-
+        System.out.println(y);
     }
 }
