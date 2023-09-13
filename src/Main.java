@@ -7,6 +7,15 @@ public class Main {
         byte b = 1 ;
 
 
+        i = b ;
+        f1 = f2 ;
+
+        i = (int)(Math.random() * 10 + 5) ;
+
+        b = (byte)i ;
+
+
+
 
 
     }
